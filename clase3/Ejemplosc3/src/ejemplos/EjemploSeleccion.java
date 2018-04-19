@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
  /*
-Crear un programa que permitain gresar una calificación por teclado,
+Crear un programa que permita ingresar una calificación por teclado,
 Si la calificación es mayor o igual a 5 y la calificación es menor a 10
 Se debe presentar un mensaje que diga usted está en supletorios.
 De lo contrario se presenta un mensaje con el valor de la calificación 

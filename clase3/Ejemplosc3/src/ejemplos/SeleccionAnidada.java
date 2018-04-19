@@ -22,17 +22,17 @@ public class SeleccionAnidada {
         estudiante = entrada.nextLine();
         System.out.println("Ingrese su calificación");
         calificacion = entrada.nextInt();
-        if (calificacion >= 90) {
+        if (calificacion >= 90 && calificacion <=100 ) {
             System.out.printf("Estudiante:%s\nexcelente\ncon calificación\t\n%d\n",estudiante, calificacion);
         } else {
             if (calificacion < 90 && calificacion >= 80) {
                 System.out.printf("Estudiante:%s\nMuy buena\ncon calificación\t\n%d\n", estudiante,calificacion);
             } else {
                 if (calificacion < 80 && calificacion >= 50) {
-                    System.out.printf("Estudiante:%s\nRegular\ncon calificación\t\n%d\n", estudiante,calificacion);
+                    System.out.printf("Estudiante:%s\nRegular\ncon calificación\n\t%d\n", estudiante,calificacion);
 
                 } else {
-                    System.out.printf("Estudiante:%s\nReprobado\ncon calificación\t\n%d\n", estudiante, calificacion);
+                    System.out.printf("Estudiante:%s\nReprobado\ncon calificación\n\t%d\n", estudiante, calificacion);
                 }
             }
         }
